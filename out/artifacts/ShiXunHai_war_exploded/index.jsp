@@ -13,7 +13,7 @@
 
 </head>
 <body>
-    <h1>单词测试管理系统</h1>
+    <h1 class="elementor-heading-title elementor-size-default">单词测试管理系统</h1>
     <h2>操作选项：</h2>
 
     <ul class="nav nav-pills">

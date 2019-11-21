@@ -17,7 +17,7 @@ public class WordServiceImpl implements WordService {
 
     @Override
     public void add(Word word) throws SQLException {
-
+        wordDao.add(word);
     }
 
     @Override
