@@ -22,8 +22,8 @@ public class DeleteServlet extends HttpServlet {
         System.out.println(id);
         WordService wordService = new WordServiceImpl();
         wordService.delete(Integer.parseInt(id));
-        writer.println(id+"Delete OK");
+        //writer.println(id+"Delete OK");
         //演示重定向 无需刷新页面，直接打开一个新的请求
-        //resp.sendRedirect("/list");
+        resp.sendRedirect("/list");
     }
 }
